@@ -1,5 +1,5 @@
 """
-WSGI config for platanus-top project.
+WSGI config for platanus project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/2.1/howto/deployment/wsgi/
 
 import os
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "platanus-top.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "platanus.settings")
 
 from django.core.wsgi import get_wsgi_application
 
